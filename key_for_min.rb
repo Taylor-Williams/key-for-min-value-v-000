@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   min_age = 400000
   name_hash.each do |kid, age|
     if age < min_age
-      min_key = :kid
+      min_key = kid
     end
   end
   min_key
